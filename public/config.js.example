@@ -1,0 +1,18 @@
+// Copy this file to config.js and fill in your own values.
+// config.js is gitignored because it holds real API keys.
+//
+// WARNING: this web app loads config.js in the browser, so the Gemini key
+// ships to every visitor anyway. Keep the key restricted (AI Studio ->
+// API key restrictions) and rotate it regularly, or proxy Gemini calls
+// through a Firebase Cloud Function instead.
+
+const GEMINI_API_KEY = "YOUR_GEMINI_API_KEY";
+
+const firebaseConfig = {
+    apiKey: "YOUR_FIREBASE_WEB_API_KEY", // Firebase web keys are public identifiers, fine to commit
+    authDomain: "your-project.firebaseapp.com",
+    projectId: "your-project",
+    storageBucket: "your-project.firebasestorage.app",
+    messagingSenderId: "000000000000",
+    appId: "1:000000000000:web:abcabcabcabc",
+};
