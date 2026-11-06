@@ -1,0 +1,14 @@
+# Never commit files containing keys
+public/config.js
+config.js
+
+# Firebase tooling
+firebase-debug.log
+firebase-debug.*.log
+.firebase/
+.firebaserc
+
+# Local artifacts
+*.bak
+.DS_Store
+node_modules/
